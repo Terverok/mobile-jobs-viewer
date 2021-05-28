@@ -67,6 +67,11 @@ export const MyJobs = () => {
 }
 
 const Root = styled.div`
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
     background-color: ${COLORS.neutralBackground};
 `;
 
@@ -87,8 +92,9 @@ const ExportButton = withStyles({
 const sideMargin = '0.5rem';
 
 const StyledTabs = styled(Tabs)`
-    background-color: white;
+    align-self: normal;
     margin: 0 ${sideMargin};
+    background-color: white;
 `;
 
 const StyledTab = withStyles({
@@ -105,6 +111,7 @@ const StyledInput = withStyles({
 })(Input);
 
 const Filters = styled.div`
+    align-self: normal;
     margin: 0 ${sideMargin};
 
     background-color: white;
