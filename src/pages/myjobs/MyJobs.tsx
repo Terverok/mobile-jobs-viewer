@@ -76,7 +76,7 @@ const Root = styled.div`
 `;
 
 const Header = styled.header`
-    margin: 1rem;
+    margin: 0.5rem 1rem;
 
     font-size: 2rem;
 `;

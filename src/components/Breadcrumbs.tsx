@@ -14,5 +14,5 @@ export const Breadcrumbs = ({ path }: Props) => (
 );
 
 const StyledBreadcrumbs = withStyles({
-    root: { margin: '1rem' },
+    root: { margin: '1rem', marginBottom: '0.5rem' },
 })(MaterialBreadcrumbs);
